@@ -9,7 +9,6 @@ AFRAME.registerComponent('hide-once-playing', {
         this.videosphere2 = document.querySelector('#videosphere2');
         this.video1 = videosphere1.components.material.material.map.image;
         this.video2 = videosphere2.components.material.material.map.image;
-
     },
     play: function () {
         // get the visible video
